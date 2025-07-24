@@ -16,7 +16,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import static org.springframework.security.config.Customizer.withDefaults;
 
 @Configuration
-@EnableWebSecurity
+@EnableWebSecurity  // spring securityni activ edir :
 
 
 public class SecurityConfig {
